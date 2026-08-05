@@ -8,7 +8,7 @@ Two main Jupiter notebooks contain the whole analysis:
 
 Both nothebooks are subdivided into sections, dedicated to each of the developed tasks. They fully return the analysis and figures reported in the article.  
 Hanta.scenarios.ipynb saves checkpoint simulation results in a folder "data" to speed up computation. The first time the notebook is run, make sure that the folder is available and the related code is decommented.  
-Both notebooks save figures (when the line is decommented) in a folder "figures".  
+Both notebooks save figures (when the "save" line is decommented) in a folder "figures".  
 Both notebooks rely on custom functions, located in the "src" folder.
 
 ### src
@@ -20,4 +20,4 @@ Basic python functions (scipy, numpy), plus custom functions located in "src".
 
 ## Credits
 Code developed by Daniele Proverbio.  
-If you wish to reuse the code, please cite its companion article: Proverbio and Giordano, "Models and preparedness scenarios for horizontal transmission in Andes Hantavirus outbreaks", 2025
+If you wish to reuse the code, please cite its companion article: Proverbio and Giordano, "Models and preparedness scenarios for horizontal transmission in Andes Hantavirus outbreaks", 2026
