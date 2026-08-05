@@ -3,8 +3,8 @@ This repository contains the code and material to reproduce the results of the p
 
 ## Folders and files
 Two main Jupiter notebooks contain the whole analysis:
-- Hanta_analysis.ipynb is for analysing of the outbreaks, fitting epidemiological parameters, getting started with toy scenarios and perform the meta-analysis on $R_0$.
-- Hanta_scenarios-ipynb is for developing the uncertainty analysis on epidemiological and network parameters, assessing the impact of superspreading and developing containment scenarios.
+- **Hanta_analysis.ipynb** is for analysing of the outbreaks, fitting epidemiological parameters, getting started with toy scenarios and perform the meta-analysis on $R_0$.
+- **Hanta_scenarios-ipynb** is for developing the uncertainty analysis on epidemiological and network parameters, assessing the impact of superspreading and developing containment scenarios.
 
 Both nothebooks are subdivided into sections, dedicated to each of the developed tasks. They fully return the analysis and figures reported in the article.  
 Hanta.scenarios.ipynb saves checkpoint simulation results in a folder "data" to speed up computation. The first time the notebook is run, make sure that the folder is available and the related code is decommented.  
