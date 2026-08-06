@@ -16,7 +16,7 @@ Custom functions for simulations and plotting are contained here. The file names
 The comments to these files have been generated using Claude Sonnet 4.6.
 
 ## Requirements
-Basic python functions (scipy, numpy), plus custom functions located in "src".
+Basic python functions (scipy, numpy), plus custom functions located in "src". Generating the scale-free network requires the library `networkx`.
 
 ## Credits
 Code developed by Daniele Proverbio.  
