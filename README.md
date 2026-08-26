@@ -20,4 +20,5 @@ Basic python functions (scipy, numpy), plus custom functions located in "src". G
 
 ## Credits
 Code developed by Daniele Proverbio.  
-If you wish to reuse the code, please cite its companion article: Proverbio and Giordano, "Models and preparedness scenarios for horizontal transmission in Andes Hantavirus outbreaks", 2026
+If you wish to reuse the code, please cite its companion article: Proverbio and Giordano, "_Andes_ Hantavirus human-to-human transmission dynamics and
+preparedness scenarios", 2026
