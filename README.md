@@ -27,7 +27,9 @@ Library versions are as follows:
 
 ## Reproducing the results
 Run (`Run All Cells`) the whole notebook `Hanta_analysis.ipynb` to obtain the analysis of data, estimation of parameters and related figures.  
-Run (`Run All Cells`) the whole notebook `Hanta_scenarios.ipynb` to obtain the analysis of scenarios, effect of network structures, parameters and other conditions.
+Run (`Run All Cells`) the whole notebook `Hanta_scenarios.ipynb` to obtain the analysis of scenarios, effect of network structures, parameters and other conditions.  
+
+Running both notebooks does not require specific inputs (data are already coded within the notebooks) and delivers the statistical results and figures included in the paper. Both notebooks typically run in a few minutes on an average laptop. The time may extend significantly depending on the considered network size used for Bayesian fitting or simulations, as well as on the number of repeated runs. With default settings, `Hanta_analysis.ipynb` requires about 15 minutes, while `Hanta_scenarios.ipynb` is completed in about 5 minutes.
 
 ## Credits
 Code developed by Daniele Proverbio.  
