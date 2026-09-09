@@ -16,13 +16,18 @@ Custom functions for simulations and plotting are contained here. The file names
 The comments to these files have been generated using Claude Sonnet 4.6.
 
 ## Requirements
-Basic python functions (scipy, numpy), plus custom functions located in "src". Generating the scale-free network requires the library `networkx`.  
+Reproducng the analysis requires Jupyter notebook (tested on v. 7.6.2) and Python 3.  
+The code uses basic python functions (scipy, numpy), plus custom functions located in "src". Generating the scale-free network requires the library `networkx`.  
 Library versions are as follows:  
 - scipy==1.17.0
 - pandas==2.3.3
 - numpy==2.4.6
 - networkx==3.6.1
 - matplotlib==3.10.9
+
+## Reproducing the results
+Run (`Run All Cells`) the whole notebook `Hanta_analysis.ipynb` to obtain the analysis of data, estimation of parameters and related figures.  
+Run (`Run All Cells`) the whole notebook `Hanta_scenarios.ipynb` to obtain the analysis of scenarios, effect of network structures, parameters and other conditions.
 
 ## Credits
 Code developed by Daniele Proverbio.  
