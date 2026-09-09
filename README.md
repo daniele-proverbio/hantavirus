@@ -16,7 +16,7 @@ Custom functions for simulations and plotting are contained here. The file names
 The comments to these files have been generated using Claude Sonnet 4.6.
 
 ## Requirements
-Reproducng the analysis requires Jupyter notebook (tested on v. 7.6.2) and Python 3.  
+Reproducing the analysis requires Jupyter notebook (tested on v. 7.6.2) and Python 3.  
 The code uses basic python functions (scipy, numpy), plus custom functions located in "src". Generating the scale-free network requires the library `networkx`.  
 Library versions are as follows:  
 - scipy==1.17.0
@@ -26,12 +26,12 @@ Library versions are as follows:
 - matplotlib==3.10.9
 
 ## Reproducing the results
+Download the content of the repository.
 Run (`Run All Cells`) the whole notebook `Hanta_analysis.ipynb` to obtain the analysis of data, estimation of parameters and related figures.  
 Run (`Run All Cells`) the whole notebook `Hanta_scenarios.ipynb` to obtain the analysis of scenarios, effect of network structures, parameters and other conditions.  
 
-Running both notebooks does not require specific inputs (data are already coded within the notebooks) and delivers the statistical results and figures included in the paper. Both notebooks typically run in a few minutes on an average laptop. The time may extend significantly depending on the considered network size used for Bayesian fitting or simulations, as well as on the number of repeated runs. With default settings, `Hanta_analysis.ipynb` requires about 15 minutes, while `Hanta_scenarios.ipynb` is completed in about 5 minutes.
+Running both notebooks does not require specific inputs (data are already coded within the notebooks) and delivers the statistical results and figures included in the paper. Both notebooks typically run in a few minutes on an average laptop. The time may extend significantly depending on the considered network size used for Bayesian fitting or simulations, as well as on the number of repeated runs. With default settings, `Hanta_analysis.ipynb` requires about 20 minutes, while `Hanta_scenarios.ipynb` is completed in about 5 minutes.
 
 ## Credits
-Code developed by Daniele Proverbio.  
-If you wish to reuse the code, please cite its companion article: Proverbio and Giordano, "_Andes_ Hantavirus human-to-human transmission dynamics and
-preparedness scenarios", 2026
+Code developed by Daniele Proverbio and released under Apache-2.0 license.
+If you wish to reuse the code, please cite its companion article: Proverbio and Giordano, "_Andes_ Hantavirus human-to-human transmission dynamics and preparedness scenarios", 2026 (see preprints on [medRxiv](https://www.medrxiv.org/content/10.64898/2026.08.31.26361797v1))
